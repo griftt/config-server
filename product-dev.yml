@@ -1,7 +1,6 @@
 
 spring:
-  application:
-    name: eureka-product
+ 
   datasource:
     username: root
     password: 123456
