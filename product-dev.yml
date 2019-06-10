@@ -1,4 +1,4 @@
-env: new2
+env: new3
 spring:
   application:
     name: product
