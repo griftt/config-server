@@ -1,0 +1,7 @@
+zuul: #自定义路由路径
+  routes:
+#    prod: #可随便填
+#      path: /prod/** #基础路由路径
+#      serviceId: product #应用名
+    product: /prod/**  #简洁写法,所有product应用的请求，都可以用prod/** 代替
+    ignored-patterns:  - /prod/env/test2    #配置不被移动端调用的接口,可以是一个集合
