@@ -1,0 +1,17 @@
+env: new9
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/eureka?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=CTT
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: true
+  rabbitmq:
+    username: guest    #admin
+    password: guest   #123456
+    host: localhost
+    port: 5672
+    #virtual-host: config
+server:
+  port: 8184  
