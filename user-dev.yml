@@ -1,5 +1,7 @@
 env: new9
 spring:
+  application:
+    name: user
   datasource:
     username: root
     password: 123456
